@@ -142,7 +142,7 @@ html {
 html,
 body {
   font-family: 'Ubuntu', sans-serif;
-  color: #5E6164;
+  color: #5e6164;
 }
 h1,
 h2,
@@ -150,7 +150,7 @@ h3,
 h4,
 h5 {
   font-family: 'Russo One', sans-serif;
-  color: #23293B;
+  color: #23293b;
 }
 h2 {
   font-size: 3.2rem;
@@ -168,7 +168,7 @@ p {
   margin: 0 auto;
 }
 .nav-container {
-  background-color: #F1F1F1;
+  background-color: #f1f1f1;
 }
 .nav-head {
   text-align: center;
@@ -248,6 +248,11 @@ html {
 .space-img {
   border-radius: 2%;
 }
+@media max-width: 500px {
+  .space-img {
+    display: none;
+  }
+}
 button {
   font-size: 1.8rem;
   padding: 8px 18px;
@@ -255,7 +260,18 @@ button {
   border-radius: 8px;
   background-color: black;
 }
+@media max-width: 500px {
+  button {
+    width: 100%;
+    padding: 10px 20px;
+  }
+}
 button:hover {
   color: skyblue;
   background-color: greenyellow;
+}
+@media max-width: 500px {
+  .walk-img {
+    display: block;
+  }
 }

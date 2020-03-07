@@ -76,6 +76,9 @@ html {
 
 .space-img {
   .img-radius;
+  @media @phone {
+    display: none;
+  }
 }
 
 button {
@@ -85,10 +88,19 @@ button {
   //background-color: black;
   color: white;
   .button-mix(8px, black);
-  @media @phone {
+
+  @media @mobile {
+    width: 100%;
+    padding: 10px 20px;
   }
 }
 button:hover {
   color: skyblue;
   background-color: greenyellow;
+}
+
+.walk-img {
+  @media @mobile {
+    display: block;
+  }
 }
