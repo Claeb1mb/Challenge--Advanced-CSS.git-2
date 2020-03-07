@@ -40,7 +40,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 4. How would you describe preprocessing to someone new to CSS? Id describe pre processing as just a easier more simple way to write css
 
-5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble? my favorite concept in preprosseing is variables & i dislike parametric mixins at the moment
+5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble? my favorite concept in preprosseing is variables & i dislike parameEtric mixins at the moment
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section _will_ prevent you from passing this challenge.
 

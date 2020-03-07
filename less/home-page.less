@@ -70,15 +70,25 @@
     }
   }
 } // home
+html {
+  font-size: 62.5%;
+}
 
 .space-img {
   .img-radius;
 }
 
 button {
-  font-size: 18px;
+  font-size: 1.8rem;
   padding: 8px 18px;
-  border-radius: 8px;
-  background-color: black;
+  //border-radius: 8px;
+  //background-color: black;
   color: white;
+  .button-mix(8px, black);
+  @media @phone {
+  }
+}
+button:hover {
+  color: skyblue;
+  background-color: greenyellow;
 }
