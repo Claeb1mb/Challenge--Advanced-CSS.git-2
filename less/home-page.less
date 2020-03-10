@@ -74,13 +74,6 @@ html {
   font-size: 62.5%;
 }
 
-.space-img {
-  .img-radius;
-  @media @phone {
-    display: none;
-  }
-}
-
 button {
   font-size: 1.8rem;
   padding: 8px 18px;
@@ -88,19 +81,34 @@ button {
   //background-color: black;
   color: white;
   .button-mix(8px, black);
-
-  @media @mobile {
-    width: 100%;
-    padding: 10px 20px;
-  }
 }
 button:hover {
   color: skyblue;
   background-color: greenyellow;
 }
 
-.walk-img {
-  @media @mobile {
+@media (max-width: 500px) {
+  .sky {
+    display: none;
+  }
+  .launch {
+    display: none;
+  }
+  button {
+    width: 100%;
+  }
+  .blast {
+    width: 100%;
+    height: auto;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .walk-img {
+    display: block;
+    margin-left: auto;
+    margin-bottom: auto;
+    width: 100%;
+    height: auto;
   }
 }

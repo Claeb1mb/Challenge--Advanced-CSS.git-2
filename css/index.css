@@ -181,6 +181,19 @@ p {
   font-size: 1.5rem;
   word-spacing: 4px;
 }
+.space-img {
+  border-radius: 2%;
+}
+@media (max-width: 500px) {
+  .nav-container {
+    max-width: 100%;
+    height: auto;
+  }
+  .space-img {
+    max-width: 100%;
+    height: auto;
+  }
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -245,14 +258,6 @@ footer {
 html {
   font-size: 62.5%;
 }
-.space-img {
-  border-radius: 2%;
-}
-@media max-width: 500px {
-  .space-img {
-    display: none;
-  }
-}
 button {
   font-size: 1.8rem;
   padding: 8px 18px;
@@ -260,18 +265,32 @@ button {
   border-radius: 8px;
   background-color: black;
 }
-@media max-width: 500px {
-  button {
-    width: 100%;
-    padding: 10px 20px;
-  }
-}
 button:hover {
   color: skyblue;
   background-color: greenyellow;
 }
-@media max-width: 500px {
+@media (max-width: 500px) {
+  .sky {
+    display: none;
+  }
+  .launch {
+    display: none;
+  }
+  button {
+    width: 100%;
+  }
+  .blast {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .walk-img {
     display: block;
+    margin-left: auto;
+    margin-bottom: auto;
+    width: 100%;
+    height: auto;
   }
 }
